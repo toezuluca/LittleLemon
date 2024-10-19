@@ -81,6 +81,19 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+#  DATABASES = {   
+#     'default': {   
+#         'ENGINE': 'django.db.backends.mysql',   
+#         'NAME': 'LittleLemon',   
+#         'USER': 'root',
+#         'PASSWORD': '6Htt9M3XybUiCnrPJWtf',
+#         'HOST': '127.0.0.1',   
+#         'PORT': '3306',   
+#         'OPTIONS': {   
+#             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"   
+#         }   
+#     }   
+# }
 
 
 # Password validation
