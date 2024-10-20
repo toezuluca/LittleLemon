@@ -29,3 +29,8 @@ urlpatterns = [
     path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.authtoken')),
 ]
+
+# Djoser:
+# Registration: POST to /auth/users/        to register a new user.
+# Login:        POST to /auth/token/login/  with username and password to receive a token.
+# Logout:       POST to /auth/token/logout/ to logout
